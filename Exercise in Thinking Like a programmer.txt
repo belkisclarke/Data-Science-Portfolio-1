@@ -1,0 +1,28 @@
+Exercise in thinking like a Programmer
+Requirements
+You have a bag filled with jellybeans of three different colors: pink, green, and yellow and 3 cups that cannot be moved arranged in a line in front of you. The end result should be that all the jellybeans have been removed from the bag and placed into cups. Each cup should only contain 1 color. The jellybeans should be placed into the cups so that the pile that is the smallest is on the left, and the pile that is the largest is on the right. Jellybeans cannot be placed anywhere except in the bag or in a cup.
+Solution
+Open the bag of jelly beans.
+Put one color jelly bean in the left cup
+Put a different color jellybean in middle cup 
+Put the third color jellybean in the cup on the right
+Put all of the matching colors in each cup
+Count the number of jelly beans in each cup if possible or observe the numbers in each cup
+Note how many jellybeans are in each cup. 
+Note which cup has the  most jellybeans and the color of the jellybeans in that cup, which cup has the second most jellybeans and the color  of the jellybeans in that cup and which has the least number of jellybeans and the color of the jellybeans in that cup.
+If the cup on left has the least  amount of jellybeans, the middle cup the second most jellybeans and the right cup the most amount of jellybeans then everything stay as is, objective achieved.
+If the left cup has more jellybeans than the middle cup follow steps 10a to 10c. If not move on to step 11
+10a) put the jellybeans in the middle cup into the bag. 
+10b) put the jellybeans in the left cup into the middle cup
+10c) put the jellybeans in the bag into the left cup
+11.	If the left has more jellybeans than the cup to the right follow steps 11a to 11c . If not move on to step 12
+11a) put the jellybeans from the left cup into the bag
+11b) put the jellybeans from the right cup into the left cup
+11c) Put the jellybeans from the bag into the right cup.
+12.	If the middle cup has more jellybeans than the left cup objective achieved it stay as is.
+13.	If the middle cup has less the left cup follow steps 10a to 10c.
+14.	If the middle cup has less jellybeans than the right cup. Then objective achieved.  If not go to step 15
+15.	If the middle cup has more jellybeans than the right cup follow steps 15a to 15c
+15a) put the jellybeans from the middle cup into the bag
+15b) Put the jellybeans from the right cup into the middle cup
+15c) Put the jellybeans from the bag into the right cup
